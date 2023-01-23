@@ -1,0 +1,23 @@
+--- __osExceptionPreamble.s
++++ __osExceptionPreamble.s
+@@ -11,8 +11,8 @@
+ #endif
+ 
+ glabel __osExceptionPreamble
+-    lui   $k0, %hi(__osException)
+-    addiu $k0, %lo(__osException)
++    lui   $k0, %hi(__crash_handler_entry)
++    addiu $k0, %lo(__crash_handler_entry)
+     jr    $k0
+      nop
+ 
+--- sm64.ld
++++ sm64.ld
+@@ -117,6 +117,7 @@ SECTIONS
+       BUILD_DIR/src/game/rendering_graph_node.o(.text);
+       BUILD_DIR/src/game/profiler.o(.text);
+       BUILD_DIR/asm/decompress.o(.text);
++      BUILD_DIR/asm/crash.o(.text);
+       BUILD_DIR/src/game/camera.o(.text);
+       BUILD_DIR/src/game/debug_course.o(.text);
+       BUILD_DIR/src/game/object_list_processor.o(.text);
