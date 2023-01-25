@@ -1,0 +1,17 @@
+extern Lights1 door_seg3_dl_03014BE0_f3dlite_material_003_lights;
+extern Lights1 door_seg3_dl_03014BE0_f3dlite_material_004_lights;
+extern Lights1 door_seg3_dl_03014BE0_f3dlite_material_005_lights;
+extern u64 door_seg3_dl_03014BE0_metal_door_overlay_rgba16_png_rgba16[];
+extern u64 door_seg3_dl_03014BE0_metal_door_rgba16_png_rgba16[];
+extern Vtx door_seg3_dl_03014BE0_door_seg3_dl_03014BE0_mesh_mesh_vtx_0[16];
+extern Gfx door_seg3_dl_03014BE0_door_seg3_dl_03014BE0_mesh_mesh_tri_0[];
+extern Vtx door_seg3_dl_03014BE0_door_seg3_dl_03014BE0_mesh_mesh_vtx_1[8];
+extern Gfx door_seg3_dl_03014BE0_door_seg3_dl_03014BE0_mesh_mesh_tri_1[];
+extern Vtx door_seg3_dl_03014BE0_door_seg3_dl_03014BE0_mesh_mesh_vtx_2[31];
+extern Gfx door_seg3_dl_03014BE0_door_seg3_dl_03014BE0_mesh_mesh_tri_2[];
+extern Gfx mat_door_seg3_dl_03014BE0_f3dlite_material_003[];
+extern Gfx mat_revert_door_seg3_dl_03014BE0_f3dlite_material_003[];
+extern Gfx mat_door_seg3_dl_03014BE0_f3dlite_material_004[];
+extern Gfx mat_revert_door_seg3_dl_03014BE0_f3dlite_material_004[];
+extern Gfx mat_door_seg3_dl_03014BE0_f3dlite_material_005[];
+extern Gfx door_seg3_dl_03014BE0_door_seg3_dl_03014BE0_mesh_mesh[];

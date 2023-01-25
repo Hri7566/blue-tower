@@ -56,7 +56,7 @@ const LevelScript level_castle_grounds_entry[] = {
 		OBJECT(MODEL_NONE, 381, -1020, 2580, 0, 0, 0, 0x00000000, bhvBirdsSoundLoop),
 		OBJECT(MODEL_NONE, 175, -943, 4645, 0, 0, 0, 0x00010000, bhvBirdsSoundLoop),
 		OBJECT(MODEL_NONE, -1985, -1009, 2406, 0, 0, 0, 0x00010000, bhvBirdsSoundLoop),
-		OBJECT(MODEL_CASTLE_GROUNDS_METAL_DOOR, -901, -1055, 2237, 0, -180, 0, (0x01 << 16), bhvDoorWarp),
+		OBJECT(MODEL_CASTLE_GROUNDS_METAL_DOOR, -900, -1055, 2237, 0, -180, 0, (0x01 << 16), bhvDoorWarp),
 		MARIO_POS(0x01, -180, -845, -1052, 4632),
 		TERRAIN(castle_grounds_area_1_collision),
 		MACRO_OBJECTS(castle_grounds_area_1_macro_objs),
