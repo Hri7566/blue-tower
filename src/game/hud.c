@@ -401,6 +401,14 @@ void render_hud_camera_status(void) {
     gSPDisplayList(gDisplayListHead++, dl_hud_img_end);
 }
 
+void render_hud_custom(void) {
+    if (gHudFlash == 1 && gGlobalTimer & 8) {
+        return;
+    }
+
+    print_text(GFX_DIMENSIONS_RECT_FROM_RIGHT_EDGE(300), HUD_TOP_Y, "TACO BELL"); // 'Star' glyph
+}
+
 /**
  * Render HUD strings using hudDisplayFlags with it's render functions,
  * excluding the cannon reticle which detects a camera preset for it.
@@ -458,5 +466,7 @@ void render_hud(void) {
         if (hudDisplayFlags & HUD_DISPLAY_FLAG_TIMER) {
             render_hud_timer();
         }
+
+        render_hud_custom();
     }
 }

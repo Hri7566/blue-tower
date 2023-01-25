@@ -14,7 +14,7 @@ extern u8 bob_dl_wf_textures_05800_rgba16_ci8[];
 extern u8 bob_dl_wf_textures_05800_rgba16_ci8_pal_rgba16[];
 extern Vtx bob_dl_Castle_mesh_layer_1_vtx_0[115];
 extern Gfx bob_dl_Castle_mesh_layer_1_tri_0[];
-extern Vtx bob_dl_Castle_mesh_layer_1_vtx_1[20];
+extern Vtx bob_dl_Castle_mesh_layer_1_vtx_1[32];
 extern Gfx bob_dl_Castle_mesh_layer_1_tri_1[];
 extern Vtx bob_dl_Ground_mesh_layer_1_vtx_0[57];
 extern Gfx bob_dl_Ground_mesh_layer_1_tri_0[];

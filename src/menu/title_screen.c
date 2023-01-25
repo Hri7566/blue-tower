@@ -201,7 +201,8 @@ s32 intro_game_over(void) {
     print_intro_text();
 
     if (gPlayer1Controller->buttonPressed & START_BUTTON) {
-        play_sound(SOUND_MENU_STAR_SOUND, gGlobalSoundSource);
+        // play_sound(SOUND_MENU_STAR_SOUND, gGlobalSoundSource);
+        play_sound(SOUND_MENU_ENTER_PIPE, gGlobalSoundSource);
 #if ENABLE_RUMBLE
         queue_rumble_data(60, 70);
         func_sh_8024C89C(1);

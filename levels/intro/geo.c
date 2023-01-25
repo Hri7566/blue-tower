@@ -16,7 +16,7 @@
 #include "levels/intro/header.h"
 
 // 0x0E0002D0
-const GeoLayout intro_geo_0002D0[] = {
+const GeoLayout intro_geo_title[] = {
    GEO_NODE_SCREEN_AREA(0, SCREEN_WIDTH/2, SCREEN_HEIGHT/2, SCREEN_WIDTH/2, SCREEN_HEIGHT/2),
    GEO_OPEN_NODE(),
       GEO_ZBUFFER(0),

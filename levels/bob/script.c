@@ -48,11 +48,13 @@ const LevelScript level_bob_entry[] = {
 	/* Fast64 end persistent block [level commands] */
 
 	AREA(1, bob_area_1),
-		WARP_NODE(0x01, LEVEL_CASTLE, 0x01, 0x03, WARP_NO_CHECKPOINT),
-		OBJECT(MODEL_NONE, 0, -1000, 0, 0, 0, 0, 0x00010000, bhvBirdsSoundLoop),
-		OBJECT(MODEL_NONE, 0, -1000, 0, 0, 0, 0, 0x00000000, bhvBirdsSoundLoop),
-		OBJECT(MODEL_BOB_WOODEN_DOOR, 185, -1046, 1781, 0, 0, 0, (0x01 << 16), bhvDoorWarp),
-		MARIO_POS(0x01, 0, 250, -50, 4136),
+		WARP_NODE(0x01, LEVEL_CASTLE, 0x01, 0x01, WARP_NO_CHECKPOINT),
+		OBJECT(MODEL_NONE, -1231, -952, 2945, 0, 0, 0, 0x00010000, bhvBirdsSoundLoop),
+		OBJECT(MODEL_NONE, 1470, -1020, 2103, 0, 0, 0, 0x00000000, bhvBirdsSoundLoop),
+		OBJECT(MODEL_NONE, 1264, -943, 4169, 0, 0, 0, 0x00010000, bhvBirdsSoundLoop),
+		OBJECT(MODEL_NONE, -896, -1009, 1930, 0, 0, 0, 0x00010000, bhvBirdsSoundLoop),
+		OBJECT(MODEL_BOB_WOODEN_DOOR, 185, -1046, 1781, 0, -180, 0, (0x01 << 16), bhvDoorWarp),
+		MARIO_POS(0x01, 0, 244, -1052, 4156),
 		TERRAIN(bob_area_1_collision),
 		MACRO_OBJECTS(bob_area_1_macro_objs),
 		STOP_MUSIC(0),
@@ -62,7 +64,7 @@ const LevelScript level_bob_entry[] = {
 	END_AREA(),
 
 	FREE_LEVEL_POOL(),
-	MARIO_POS(0x01, 0, 250, -50, 4136),
+	MARIO_POS(0x01, 0, 244, -1052, 4156),
 	CALL(0, lvl_init_or_update),
 	CALL_LOOP(1, lvl_init_or_update),
 	CLEAR_LEVEL(),
