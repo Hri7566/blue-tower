@@ -467,6 +467,6 @@ void render_hud(void) {
             render_hud_timer();
         }
 
-        render_hud_custom();
+        // render_hud_custom();
     }
 }
